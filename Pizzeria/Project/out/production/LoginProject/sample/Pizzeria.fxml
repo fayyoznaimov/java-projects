@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="541.0" prefWidth="819.0" style="-fx-background-color: #ff8243;" styleClass="f" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.PizzeriaController">
+   <children>
+      <Label alignment="CENTER" layoutX="-3.0" layoutY="14.0" lineSpacing="15.0" prefHeight="58.0" prefWidth="808.0" text="Welcome to Pizzeria Bella Napoli" textOverrun="CENTER_WORD_ELLIPSIS">
+         <font>
+            <Font name="Gabriola" size="62.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#1e1b39" />
+                  <Stop color="#808080" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <ImageView fitHeight="311.0" fitWidth="263.0" layoutX="14.0" layoutY="92.0" pickOnBounds="true" smooth="false">
+         <image>
+            <Image url="@Images/thomas-tucker-MNtag_eXMKw-unsplash.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="311.0" fitWidth="270.0" layoutX="277.0" layoutY="92.0" pickOnBounds="true">
+         <image>
+            <Image url="@Images/anna-pelzer-IGfIGP5ONV0-unsplash.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="311.0" fitWidth="270.0" layoutX="540.0" layoutY="93.0" pickOnBounds="true" smooth="false">
+         <image>
+            <Image url="@Images/brenda-godinez-CrK843Pl9a4-unsplash.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="mealsButton" layoutX="14.0" layoutY="417.0" mnemonicParsing="false" onAction="#mealsButtonOnAction" prefHeight="36.0" prefWidth="263.0" style="-fx-background-color: #ffdab9;" text="Meals">
+         <font>
+            <Font name="Candara Bold Italic" size="17.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#1e1b39" />
+                  <Stop color="#ababab" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Button>
+      <Button fx:id="saladsButton" layoutX="281.0" layoutY="417.0" mnemonicParsing="false" onAction="#saladsButtonOnAction" prefHeight="36.0" prefWidth="263.0" style="-fx-background-color: #ffdab9;" text="Fresh Salads">
+         <font>
+            <Font name="Candara Bold Italic" size="17.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#1e1b39" />
+                  <Stop color="#ababab" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Button>
+      <Button fx:id="drinksButton" layoutX="547.0" layoutY="417.0" mnemonicParsing="false" onAction="#drinksButtonOnAction" prefHeight="36.0" prefWidth="263.0" style="-fx-background-color: #ffdab9;" text="Cool Drinks">
+         <font>
+            <Font name="Candara Bold Italic" size="17.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#1e1b39" />
+                  <Stop color="#ababab" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Button>
+      <Button fx:id="logoutButton" layoutX="281.0" layoutY="464.0" mnemonicParsing="false" onAction="#logoutButtonOnAction" prefHeight="36.0" prefWidth="263.0" style="-fx-background-color: #ffdab9;" text="Logout">
+         <font>
+            <Font name="Candara Bold Italic" size="17.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#1e1b39" />
+                  <Stop color="#ababab" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Button>
+   </children>
+</AnchorPane>
